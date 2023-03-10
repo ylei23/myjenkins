@@ -1,0 +1,5 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","这是TEST1","用例Test1_test1","0","0","1","0","0"
+"","这是TEST2","用例Test2_test1","0","0","1","0","0"
+"","这是TEST1","用例Test1_test2","1","0","0","0","0"
+"","这是TEST2","用例Test2_test2","1","0","0","0","0"

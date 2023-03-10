@@ -1,0 +1,8 @@
+用例名称,模块名称,操作步骤,关键字,操作对象,数据1,数据2,优先级
+访问百度首页,百度,访问页面,send_requests_post,http://www.baidu.com,,,高
+,,断言,assert_contail,,X-UA-Compatible,,
+,,end,,,,,
+访问百度首页2,百度,访问页面,send_requests_post,http://www.baidu.com,,,高
+,,正则获取关键字,vb,,http-equiv="(.*)",aa,
+,,访问页面,send_requests_post,http://www.baidu.com,{'hb':ac['aa']},,
+,,end,,,,,

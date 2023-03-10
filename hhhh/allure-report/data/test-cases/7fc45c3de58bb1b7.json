@@ -1,0 +1,116 @@
+{
+  "uid" : "7fc45c3de58bb1b7",
+  "name" : "test_2",
+  "fullName" : "test_h1.test_a.Test1#test_2",
+  "historyId" : "0f21be7fd8a6fe7e63bb2f2f0204a0b4",
+  "time" : {
+    "start" : 1678462480448,
+    "stop" : 1678462480450,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2",
+  "statusTrace" : "self = <hhhh.test_h1.test_a.Test1 object at 0x0422A290>\n\n    @allure.story('用例Test1_test2')\n    def test_2(self):\n        a()\n        c()\n>       assert 1==2\nE       assert 1 == 2\n\ntest_h1\\test_a.py:16: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 1 == 2",
+    "statusTrace" : "self = <hhhh.test_h1.test_a.Test1 object at 0x0422A290>\n\n    @allure.story('用例Test1_test2')\n    def test_2(self):\n        a()\n        c()\n>       assert 1==2\nE       assert 1 == 2\n\ntest_h1\\test_a.py:16: AssertionError",
+    "steps" : [ {
+      "name" : "步骤这是函数a",
+      "time" : {
+        "start" : 1678462480449,
+        "stop" : 1678462480449,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "步骤这是函数c",
+      "time" : {
+        "start" : 1678462480449,
+        "stop" : 1678462480449,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "302ae161993f4029",
+      "name" : "stdout",
+      "source" : "302ae161993f4029.txt",
+      "type" : "text/plain",
+      "size" : 5
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "这是TEST1"
+  }, {
+    "name" : "story",
+    "value" : "用例Test1_test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_h1"
+  }, {
+    "name" : "suite",
+    "value" : "test_a"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test1"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-DKSEFTG2"
+  }, {
+    "name" : "thread",
+    "value" : "24168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_h1.test_a"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7fc45c3de58bb1b7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,108 @@
+{
+  "uid" : "450275e65555d4ed",
+  "name" : "test_1",
+  "fullName" : "test_h1.test_a.Test2#test_1",
+  "historyId" : "037dde31140e997f17e7faf48d5a322a",
+  "time" : {
+    "start" : 1678462480518,
+    "stop" : 1678462480519,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤这是函数a",
+      "time" : {
+        "start" : 1678462480518,
+        "stop" : 1678462480518,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "步骤这是函数b",
+      "time" : {
+        "start" : 1678462480518,
+        "stop" : 1678462480518,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e47c1b498ad0e3cd",
+      "name" : "stdout",
+      "source" : "e47c1b498ad0e3cd.txt",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用例Test2_test1"
+  }, {
+    "name" : "feature",
+    "value" : "这是TEST2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_h1"
+  }, {
+    "name" : "suite",
+    "value" : "test_a"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test2"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-DKSEFTG2"
+  }, {
+    "name" : "thread",
+    "value" : "24168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_h1.test_a"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "450275e65555d4ed.json",
+  "parameterValues" : [ ]
+}
